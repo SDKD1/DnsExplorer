@@ -16,21 +16,3 @@ Para usar o script, basta especificar o domínio desejado como argumento ao exec
 ```bash
 ./DnsExplorer.sh example.com
 
-Substitua <domínio> pelo domínio que você deseja explorar.
-Requisitos
-
-    Bash (o script foi testado no Bash 4.4.19).
-    Acesso à internet para realizar consultas aos servidores WHOIS e RDAP.
-
-Status do Projeto
-
-Este projeto está atualmente em fase de testes e desenvolvimento ativo. Ainda há melhorias planejadas e novas funcionalidades a serem implementadas.
-Aviso Legal
-
-Este script foi desenvolvido para fins educacionais e de testes de segurança. Use-o de maneira ética e responsável. Não utilize este script para acessar sistemas sem autorização.
-Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novas funcionalidades.
-Licença
-
-Este projeto é licenciado sob a MIT License.
