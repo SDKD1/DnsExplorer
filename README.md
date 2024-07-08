@@ -1,22 +1,17 @@
-# DnsExplorer
-O script `DnsExplorer.sh` foi feito para trazer informações de domínios através de consultas WHOIS e RDAP. Ele automatiza o processo de consulta e exibe informações relevantes de um domínio, como detalhes de registro, NetBlock/ASN, autoridade e outras informações associadas.
-
-
-
 # DnsExplorer.sh
 
 ## Descrição
 
-DnsExplorer.sh é uma ferramenta desenvolvida em Bash para explorar informações de domínios através de consultas WHOIS e RDAP (Registration Data Access Protocol). Ele automatiza o processo de consulta e exibição de informações relevantes de um domínio, como detalhes de registro, NetBlock/ASN, e outras informações associadas.
+DnsExplorer.sh é uma ferramenta em Bash projetada para encontrar informações de domínios de forma automatizada, utilizando consultas WHOIS e RDAP (Registration Data Access Protocol). Ele simplifica a obtenção de detalhes como registro de domínio, NetBlock/ASN e outras informações relevantes associadas a um domínio específico.
 
 ## Funcionalidades Principais
 
-- Consulta WHOIS na autoridade do domínio especificado.
-- Consulta RDAP para informações detalhadas de NetBlock/ASN associadas ao domínio.
-- Exibe detalhes como inetnum, NetRange, NetName, e proprietário do bloco de endereços IP associado ao domínio.
+- Realiza consultas WHOIS para obter informações na autoridade do domínio.
+- Utiliza RDAP para detalhar NetBlock/ASN associados ao domínio.
+- Apresenta informações como inetnum, NetRange, NetName e proprietário do bloco de endereços IP vinculado ao domínio.
 
-## Uso
+## Como Usar
 
-Para utilizar o script, basta especificar o domínio desejado como argumento ao executá-lo. Por exemplo:
+Para usar o script, basta especificar o domínio desejado como argumento ao executá-lo. Por exemplo:
 ```bash
 ./DnsExplorer.sh example.com
